@@ -1,0 +1,15 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.jumbotron {
+    background-color: palegoldenrod;
+}
