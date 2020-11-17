@@ -2,6 +2,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h1 {
+    font-family: 'Comfortaa', cursive;
+    color: darkgreen;
+}
+
 .navbar {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: inline-flex;
@@ -10,6 +15,51 @@ body {
     z-index: 1;
 }
 
+.navbar {
+    background-color: 7ABCA3 !important;
+}
+
 .jumbotron {
-    background-color: palegoldenrod;
+    background-color: #CEDDD2;
+    margin: 0;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+}
+
+.card_one {
+    margin: 5%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #D5A743;
+}
+
+.card_one img {
+    height: 550px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+.card-footer {
+    background: snow;
+}
+
+.picture {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.media p {
+    margin-top: 2%;
+}
+
+.media img {
+    height: 188px;
+    width: 314px;
 }
